@@ -1,15 +1,15 @@
 ---
 title: Menu principal
 items:
-- title: Personnes
-  slug: personnes
-  target: "/personnes/"
+- title: Projets
+  slug: projets
+  target: "/projets/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
+  path: "/projects"
+  file: content/fr/projects/_index.html
 - title: Expositions
   slug: expositions
   target: "/expositions/"
@@ -28,15 +28,6 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: Projets
-  slug: projets
-  target: "/projets/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
 - title: Organisations
   slug: organisations
   target: "/organisations/"
@@ -46,4 +37,13 @@ items:
   descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
+- title: Personnes
+  slug: personnes
+  target: "/personnes/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
 
