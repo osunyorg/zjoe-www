@@ -28,6 +28,33 @@ items:
   descendants_targets: []
   path: "/pages/image"
   file: content/fr/pages/image/_index.html
+- title: Vidéo
+  slug: video
+  target: "/video/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/video"
+  file: content/fr/pages/video/_index.html
+- title: Expos
+  slug: expos
+  target: "/expos/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/expos"
+  file: content/fr/pages/expos/_index.html
+- title: Textes
+  slug: textes
+  target: "/textes/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/textes"
+  file: content/fr/pages/textes/_index.html
 - title: Expositions
   slug: expositions
   target: "/expositions/"
@@ -73,22 +100,4 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Vidéo
-  slug: video
-  target: "/video/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/video"
-  file: content/fr/pages/video/_index.html
-- title: Expos
-  slug: expos
-  target: "/expos/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/expos"
-  file: content/fr/pages/expos/_index.html
 
