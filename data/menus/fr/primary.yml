@@ -57,7 +57,7 @@ items:
   file: content/fr/pages/textes/_index.html
 - title: Projets
   slug: projets
-  target: "/projets/"
+  target: "/travaux/"
   kind: page
   new_tab: false
   children: []
