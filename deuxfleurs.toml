@@ -47,6 +47,10 @@ from = "/traces-eventuelles-de-graisse/index.html"
 to = "/expos/traces-eventuelles-de-graisse/"
 
 [[redirects]]
+from = "/expo/index.html"
+to = "/exposition/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/travaux/"
 
