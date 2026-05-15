@@ -15,6 +15,22 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/projets/sculpture/index.html"
+to = "/travaux/sculpture/"
+
+[[redirects]]
+from = "/projets/2023-multitude/index.html"
+to = "/travaux/2023-multitude/"
+
+[[redirects]]
+from = "/projets/image/index.html"
+to = "/travaux/image/"
+
+[[redirects]]
+from = "/projets/2023-ensemble-cube/index.html"
+to = "/travaux/2023-ensemble-cube/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/travaux/"
 
