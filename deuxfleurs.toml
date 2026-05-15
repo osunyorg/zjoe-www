@@ -35,6 +35,10 @@ from = "/compagnonnage/index.html"
 to = "/expos/compagnonnage/"
 
 [[redirects]]
+from = "/textes/livret-de-visite-de-lexposition-chutes/index.html"
+to = "/textes/galeries-nomades/"
+
+[[redirects]]
 from = "/chutes/index.html"
 to = "/expos/chutes/"
 
@@ -52,7 +56,7 @@ to = "/exposition/"
 
 [[redirects]]
 from = "/livret-de-visite-de-lexposition-chutes/index.html"
-to = "/textes/livret-de-visite-de-lexposition-chutes/"
+to = "/textes/galeries-nomades/"
 
 [[redirects]]
 from = "/projets/index.html"
