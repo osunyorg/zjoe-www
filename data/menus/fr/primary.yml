@@ -55,31 +55,4 @@ items:
   descendants_targets: []
   path: "/pages/textes"
   file: content/fr/pages/textes/_index.html
-- title: Projets
-  slug: projets
-  target: "/travaux/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
-- title: Bâtons rompus !
-  slug: batons-rompus
-  target: "/batons-rompus/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/batons-rompus"
-  file: content/fr/pages/batons-rompus/_index.html
-- title: Traces éventuelles de graisse
-  slug: traces-eventuelles-de-graisse
-  target: "/traces-eventuelles-de-graisse/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/traces-eventuelles-de-graisse"
-  file: content/fr/pages/traces-eventuelles-de-graisse/_index.html
 
