@@ -31,6 +31,10 @@ from = "/projets/2023-ensemble-cube/index.html"
 to = "/travaux/2023-ensemble-cube/"
 
 [[redirects]]
+from = "/compagnonnage/index.html"
+to = "/expos/compagnonnage/"
+
+[[redirects]]
 from = "/chutes/index.html"
 to = "/expos/chutes/"
 
