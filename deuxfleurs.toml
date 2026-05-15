@@ -31,6 +31,18 @@ from = "/projets/2023-ensemble-cube/index.html"
 to = "/travaux/2023-ensemble-cube/"
 
 [[redirects]]
+from = "/chutes/index.html"
+to = "/expos/chutes/"
+
+[[redirects]]
+from = "/batons-rompus/index.html"
+to = "/expos/batons-rompus/"
+
+[[redirects]]
+from = "/traces-eventuelles-de-graisse/index.html"
+to = "/expos/traces-eventuelles-de-graisse/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/travaux/"
 
