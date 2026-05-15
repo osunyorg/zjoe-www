@@ -51,6 +51,10 @@ from = "/expo/index.html"
 to = "/exposition/"
 
 [[redirects]]
+from = "/livret-de-visite-de-lexposition-chutes/index.html"
+to = "/textes/livret-de-visite-de-lexposition-chutes/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/travaux/"
 
