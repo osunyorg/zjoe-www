@@ -4,7 +4,7 @@ params:
   summary:
     position: hero
   breadcrumb:
-    position: after-hero
+    position: hero-start
   search:
     active: true
   logo:
