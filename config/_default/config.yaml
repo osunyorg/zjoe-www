@@ -9,7 +9,7 @@ params:
     active: true
   logo:
     header: ''
-    footer: none
+    footer: ''
   home:
     head:
       title: site
