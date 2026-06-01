@@ -4,12 +4,40 @@ params:
   summary:
     position: hero
   breadcrumb:
-    position: hero-start
+    position: after-hero
   search:
     active: true
   logo:
     header: ''
-    footer: ''
+    footer: none
   home:
     head:
       title: site
+  share_links:
+    enabled: false
+
+  # SECTIONS
+  default:
+    index:
+      taxonomies:
+        display: false
+    single:
+      taxonomies: # for organizations, persons, events and exhibitions (to be removed with meta)
+        position: none
+  categories:
+    index:
+      layout: list
+  pages:
+    index:
+      layout: list
+      options:
+        categories: false
+    single:
+      taxonomies:
+        position: none
+  projects:
+    index:
+      layout: list
+    single:
+      share_links:
+        enabled: false
