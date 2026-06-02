@@ -13,13 +13,19 @@ contents:
     top:
       active: true
       description: >-
-        <p>Une question ? Une proposition de collaboration ? Contactez-moi !</p>
+        <p>Une question ? Une proposition de collaboration ?</p>
     data:
       layout: accent_background
       text: >-
-        <p>Une question ? Une proposition de collaboration ? Contactez-moi !</p>
+        <p>Une question ? Une proposition de collaboration ?</p>
 
       buttons:
+        - 
+          title: >-
+            Contactez-moi !
+          url: >-
+            https://tally.so/r/LZkjXj
+          target_blank: true
 
 
 
