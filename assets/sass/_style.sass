@@ -17,15 +17,23 @@ header#document-header
 
 footer#document-footer
     .footer-legals
+        @include media-breakpoint-down(desktop)
+            padding-top: space(0)
+            margin-top: space(6)
         @include media-breakpoint-up(desktop)
-            width: 100%
-            justify-content: space-between
+            padding-top: space(5)
+        width: 100%
+        justify-content: space-between
+
+    .footer-legals,
+    .nav-legal
+        display: flex
+        gap: space(10)
+        @include media-breakpoint-down(desktop)
+            flex-direction: column
+            gap: space(6)
+
+        li,
+        .footer-credit
             margin-top: 0
-                .nav-legal
-                    display: flex
-                    gap: space(10)
-            
-                li,
-                .footer-credit
-                    margin-top: 0
 
