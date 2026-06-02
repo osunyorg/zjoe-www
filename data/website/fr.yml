@@ -1,7 +1,31 @@
 default:
 contents_reading_time:
-  seconds: 0
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: call_to_action
+
+
+    ranks:
+      base: 2
+    top:
+      active: true
+      description: >-
+        <p>Une question ? Une proposition de collaboration ?</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>Une question ? Une proposition de collaboration ?</p>
+
+      buttons:
+        - 
+          title: >-
+            Contactez-moi !
+          url: >-
+            https://tally.so/r/LZkjXj
+          target_blank: true
+
+
 
