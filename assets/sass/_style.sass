@@ -1,20 +1,31 @@
+header#document-header
+    @include media-breakpoint-down(desktop)
+        border-bottom: $custom-border
+
 .breadcrumb-container
-    border-top: $custom-border
     border-bottom: $custom-border
+    @include media-breakpoint-down(desktop)
+        border-top: $custom-border
 
 .hero
-    border-top: $custom-border
-    border-bottom: $custom-border
-    padding-bottom: 0
-    .content
-        align-items: center
-        padding-top: 0
+    @include media-breakpoint-up(desktop)
+        border-bottom: $custom-border
         padding-bottom: 0
+        .content
+            padding-top: 0
+            padding-bottom: 0
 
 footer#document-footer
-    .footer-legals,
-    .nav-legal
-        display: flex
-        gap: space(10)
-        li,
-        .footer-credit
+    .footer-legals
+        @include media-breakpoint-up(desktop)
+            width: 100%
+            justify-content: space-between
+            margin-top: 0
+                .nav-legal
+                    display: flex
+                    gap: space(10)
+            
+                li,
+                .footer-credit
+                    margin-top: 0
+
