@@ -1,8 +1,8 @@
 header#document-header
     .logo-text
-        font-size: $header-logo-height
+        font-size: $header-logo-height !important
         @include media-breakpoint-up(desktop)
-            font-size: $header-logo-height-desktop
+            font-size: $header-logo-height-desktop !important
     @include media-breakpoint-down(desktop)
         border-bottom: $custom-border
 
@@ -25,6 +25,7 @@ header#document-header
         border-top: $custom-border
 
 footer#document-footer
+    padding-top: 0
     .footer-site,
     .footer-logo
         display: none
