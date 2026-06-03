@@ -4,12 +4,6 @@ header#document-header
     @include media-breakpoint-down(desktop)
         border-bottom: $custom-border
 
-.breadcrumb-container
-    border-bottom: $custom-border
-    @include media-breakpoint-down(desktop)
-        border-top: $custom-border
-        margin-top: 0
-
 .hero
     @include media-breakpoint-up(desktop)
         border-bottom: $custom-border
@@ -17,6 +11,14 @@ header#document-header
         .content
             padding-top: 0
             padding-bottom: 0
+    @include media-breakpoint-down(desktop)
+        + .breadcrumb-container
+            margin-top: 0
+
+.breadcrumb-container
+    border-bottom: $custom-border
+    @include media-breakpoint-down(desktop)
+        border-top: $custom-border
 
 footer#document-footer
     .footer-site,
