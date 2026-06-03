@@ -16,6 +16,9 @@ header#document-header
             padding-bottom: 0
 
 footer#document-footer
+    .footer-logo
+        .logo-text
+            font-size: var(--meta-size)
     .footer-legals
         @include media-breakpoint-down(desktop)
             padding-top: space(0)
@@ -25,6 +28,7 @@ footer#document-footer
         width: 100%
         justify-content: space-between
 
+    .footer-logo,
     .footer-legals,
     .nav-legal
         display: flex
