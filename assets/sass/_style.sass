@@ -27,10 +27,8 @@ header#document-header
 footer#document-footer
     padding-top: $spacing-3
     padding-bottom: $spacing-3
-    .container
-        padding-bottom: 0
-        .footer-site,
-        .footer-logo
+    .footer-site,
+    .footer-logo
             display: none
     .footer-legals
         padding-top: 0
@@ -50,6 +48,17 @@ footer#document-footer
         li,
         .footer-credit
             margin-top: 0
+    
+    @include media-breakpoint-down(desktop)
+        .container
+            + .container,
+            > * + *
+                margin-top: 0
+
+    @include media-breakpoint-up(desktop)
+        .container
+            + .container
+                padding-top: 0
 
 .block-pages
     &--cards
