@@ -1,4 +1,6 @@
 header#document-header
+    .logo-text
+        font-size: var(--body-size)
     @include media-breakpoint-down(desktop)
         border-bottom: $custom-border
 
@@ -6,6 +8,7 @@ header#document-header
     border-bottom: $custom-border
     @include media-breakpoint-down(desktop)
         border-top: $custom-border
+        margin-top: 0
 
 .hero
     @include media-breakpoint-up(desktop)
@@ -22,9 +25,9 @@ footer#document-footer
     .footer-legals
         @include media-breakpoint-down(desktop)
             padding-top: space(0)
-            margin-top: space(6)
+            margin-top: space(0)
         @include media-breakpoint-up(desktop)
-            padding-top: space(5)
+            padding-top: space(0)
         width: 100%
         justify-content: space-between
 
