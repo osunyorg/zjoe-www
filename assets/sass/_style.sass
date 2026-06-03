@@ -24,8 +24,6 @@ header#document-header
     border-bottom: $custom-border
 
 footer#document-footer
-    padding-top: $spacing-3
-    padding-bottom: $spacing-3
     .footer-site,
     .footer-logo
             display: none
@@ -49,12 +47,16 @@ footer#document-footer
             margin-top: 0
     
     @include media-breakpoint-down(desktop)
+        padding-top: $spacing-6
+        padding-bottom: $spacing-6
         .container
             + .container,
             > * + *
                 margin-top: 0
 
     @include media-breakpoint-up(desktop)
+        padding-top: $spacing-3
+        padding-bottom: $spacing-3
         .container
             padding-bottom: 0
             + .container
