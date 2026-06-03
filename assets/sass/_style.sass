@@ -25,16 +25,17 @@ header#document-header
         border-top: $custom-border
 
 footer#document-footer
-    padding-top: 0
-    .footer-site,
-    .footer-logo
-        display: none
+    padding-top: $spacing-3
+    padding-bottom: $spacing-3
+    .container
+        padding-bottom: 0
+        .footer-site,
+        .footer-logo
+            display: none
     .footer-legals
+        padding-top: 0
         @include media-breakpoint-down(desktop)
-            padding-top: space(0)
-            margin-top: space(0)
-        @include media-breakpoint-up(desktop)
-            padding-top: space(0)
+            margin-top: 0
         width: 100%
         justify-content: space-between
 
@@ -44,7 +45,7 @@ footer#document-footer
         gap: space(10)
         @include media-breakpoint-down(desktop)
             flex-direction: column
-            gap: space(6)
+            gap: $spacing-3
 
         li,
         .footer-credit
