@@ -8,7 +8,6 @@ header#document-header
 
 .hero
     @include media-breakpoint-up(desktop)
-        border-bottom: $custom-border
         padding-bottom: 0
         .content
             padding-top: 0
@@ -16,11 +15,11 @@ header#document-header
             margin-right: var(--grid-gutter-negative)
 
     @include media-breakpoint-down(desktop)
-        border-bottom: $custom-border
         + .breadcrumb-container
             margin-top: 0
 
 .breadcrumb-container
+    border-top: $custom-border
     border-bottom: $custom-border
 
 footer#document-footer
@@ -76,4 +75,4 @@ footer#document-footer
     &--accent_background
         .chapter
             .text
-                width: 100%
+                width: 100% !important
