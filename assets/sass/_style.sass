@@ -12,8 +12,12 @@ header#document-header
         .content
             align-items: center
             padding-top: 0
-            padding-bottom: 0
-            margin-right: var(--grid-gutter-negative)
+            .hero-text
+                margin-top: 0
+                padding-top: var(--block-space-y)
+                padding-bottom: var(--block-space-y)
+            .hero-image
+                margin-right: var(--grid-gutter-negative)
 
     @include media-breakpoint-down(desktop)
         + .breadcrumb-container
