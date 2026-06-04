@@ -5,7 +5,7 @@ $color-purple: #C1B2FF
 $color-background: $color-wine
 $color-background-alt: $color-red
 $color-text: $color-red
-$color-text-alt: $color-wine
+$color-text-alt: $color-red
 $color-border: $color-red
 $color-accent: $color-purple
 
@@ -24,6 +24,8 @@ $h3-font-family: $font-bluu
 
 // h5 = titres des chapitres
 $h5-font-family: $font-bluu
+$h5-size-desktop: pxToRem(40)
+$h5-size: pxToRem(24)
 $h5-text-transform: none
 
 // Lead = description hero
@@ -31,9 +33,6 @@ $lead-size-desktop: pxToRem(24)
 $lead-size: pxToRem(20)
 $lead-hero-size-desktop: $lead-size-desktop
 $lead-hero-size: $lead-size
-
-// Quotes
-$quote-font-family: $font-bluu
 
 // header or menu or nav
 $header-background: $color-background
@@ -51,16 +50,6 @@ $footer-background-color: none
 $border-width: 1px
 $custom-border: var(--border-width) solid var(--color-border)
 
-// button
-$btn-border-radius: 0
-$btn-color: var(--color-background)
-$btn-background: var(--color-text)
-$btn-hover-color: var(--color-background)
-$btn-hover-background: var(--color-accent)
-$btn-border-width: 1px
-$btn-border: $btn-border-width solid var(--color-background)
-$btn-hover-border: $btn-border
-
 // block call to action
 $block-call-to-action-accent-background: var(--color-text)
 $block-call-to-action-accent-color: var(--color-background)
@@ -77,17 +66,18 @@ $layout-cards-item-color: var(--color-text)
 $layout-cards-item-background-hover: var(--color-text)
 $layout-cards-item-color-hover: var(--color-background)
 
-// Block pages
+// block pages
 $block-pages-card-background: var(--color-background)
 $block-pages-card-page-background: var(--color-background)
 $block-pages-card-page-color: var(--color-text)
 $block-pages-card-page-background-hover: var(--color-text)
 $block-pages-card-page-color-hover: var(--color-background)
 
-// Block gallery
+// block gallery
 $block-gallery-carousel-background: var(--color-background)
 $block-gallery-carousel-height: 260px
 $block-gallery-carousel-height-desktop: 500px
 
-// Testimonials
-$block-testimonials-color: var(--color-text-alt)
+// block chapter
+$block-chapter-layout-accent-background: var(--color-text)
+$block-chapter-layout-accent-color: var(--color-background)
