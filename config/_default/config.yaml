@@ -22,8 +22,19 @@ params:
       taxonomies:
         display: false
     single:
+      meta:
+        options:
+          authors: false
+          dates: false
+          published_at: false
+          reading_time: false
+          share: false
+          taxonomies: false
+          updated_at: false
+          with_labels: false
       taxonomies: # for organizations, persons, events and exhibitions (to be removed with meta)
         position: none
+        show_name: false
   categories:
     index:
       layout: list
@@ -38,6 +49,11 @@ params:
   projects:
     index:
       layout: list
+      options:
+        categories: false
     single:
+      meta:
+        options:
+          year: false
       share_links:
         enabled: false
