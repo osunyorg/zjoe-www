@@ -37,9 +37,11 @@ params:
       taxonomies: # for organizations, persons, events and exhibitions (to be removed with meta)
         position: none
         show_name: false
+
   categories:
     index:
       layout: list
+
   pages:
     index:
       layout: list
@@ -48,6 +50,7 @@ params:
     single:
       taxonomies:
         position: none
+        
   projects:
     index:
       layout: list
