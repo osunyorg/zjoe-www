@@ -21,8 +21,10 @@ params:
     index:
       taxonomies:
         display: false
+        show_name: false
     single:
       meta:
+        position: none
         options:
           authors: false
           dates: false
