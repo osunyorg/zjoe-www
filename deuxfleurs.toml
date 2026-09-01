@@ -62,3 +62,7 @@ to = "/textes/galeries-nomades/"
 from = "/projets/index.html"
 to = "/travaux/"
 
+[[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/gn23-gdv-exepdf/"
+
