@@ -55,4 +55,11 @@ items:
   descendants_targets: []
   path: "/pages/textes"
   file: content/fr/pages/textes/_index.html
+- title: Contact
+  slug: contact
+  target: https://tally.so/r/LZkjXj
+  kind: url
+  new_tab: true
+  children: []
+  descendants_targets: []
 
